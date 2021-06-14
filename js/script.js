@@ -6,14 +6,13 @@ var studente = {
 }
 
 
-
 // Stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
 for (var key in studente){
     console.log(studente[key]);
 }
 
-// Creare un array di oggetti di studenti.
 
+// Creare un array di oggetti di studenti.
 var arrayOggettiStudenti = [
     {
         nome: 'Francesca',
@@ -43,8 +42,9 @@ for (i = 0; i < arrayOggettiStudenti.length; i++){
     console.log(arrayOggettiStudenti[i].nome);
     console.log(arrayOggettiStudenti[i].cognome);
 }
-// Dare la possibilità all’utente, attraverso 3 prompt(), di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
 
+
+// Dare la possibilità all’utente, attraverso 3 prompt(), di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
 var aggiungiNome = prompt('Inserisci nome'); 
 var aggiungiCognome = prompt('Inserisci cognome'); 
 var aggiungiEta = parseInt(prompt('Inserisci eta'));

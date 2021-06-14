@@ -39,5 +39,9 @@ var arrayOggettiStudenti = [
 
 
 // Ciclare su tutti gli studenti e stampare per ognuno di essi, nome e cognome.
+for (i = 0; i < arrayOggettiStudenti.length; i++){
+    console.log(arrayOggettiStudenti[i].nome);
+    console.log(arrayOggettiStudenti[i].cognome);
+}
 // Dare la possibilità all’utente, attraverso 3 prompt(), di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
 
